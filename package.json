@@ -4,6 +4,7 @@
   "repository": "https://github.com/KIM-JUNHO/react-web.git",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-env": "^7.8.6",
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
@@ -15,6 +16,7 @@
     "start": "parcel src/index.html"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.6",
     "typescript": "^3.8.3"
   }
 }
