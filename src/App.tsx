@@ -1,10 +1,14 @@
 import React from 'react';
+import { ThemeProvider } from 'styled-components';
+import theme from './theme';
 import Store from './store';
 
 function App() {
   return (
     <Store.Provider>
-      <div>Hello React</div>
+      <ThemeProvider theme={theme}>
+        <div>Hello React</div>
+      </ThemeProvider>
     </Store.Provider>
   );
 }
