@@ -1,7 +1,12 @@
 import React from 'react';
+import Store from './store';
 
 function App() {
-  return <div>Hello React</div>;
+  return (
+    <Store.Provider>
+      <div>Hello React</div>
+    </Store.Provider>
+  );
 }
 
 export default App;
