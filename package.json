@@ -6,7 +6,8 @@
   "dependencies": {
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.0",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "typography": "^0.16.19"
   },
   "scripts": {
     "start": "parcel index.html"
