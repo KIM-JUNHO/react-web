@@ -7,10 +7,12 @@
     "parcel-bundler": "^1.12.4",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "styled-components": "^5.0.1",
+    "styled-flex-component": "^3.0.0",
     "typography": "^0.16.19"
   },
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel src/index.html"
   },
   "devDependencies": {
     "typescript": "^3.8.3"
