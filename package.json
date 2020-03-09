@@ -12,10 +12,11 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "styled-components": "^5.0.1",
-    "styled-flex-component": "^3.0.0",
-    "typography": "^0.16.19"
+    "tailwindcss": "^1.2.0"
   },
   "scripts": {
+    "build:styles": "npx tailwindcss build tailwind.css -o src/index.css",
+    "prestart": "yarn build:styles",
     "start": "parcel src/index.html"
   },
   "devDependencies": {
